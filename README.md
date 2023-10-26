@@ -1,4 +1,4 @@
-# Laravel 9 透過 Eloquent 模型允許關聯瀏覽紀錄
+# Laravel 10 透過 Eloquent 模型允許關聯瀏覽紀錄
 
 引入 cyrildewit 的 eloquent-viewable 套件來擴增透過 Eloquent 模型允許關聯瀏覽紀錄，可以看到哪些資料瀏覽量最高，最受歡迎，很適合拿來評價資料的熱門程度。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/HUE8dLj.png)
+![](https://i.imgur.com/xlRY3JV.png)
 > 找出最熱門的文章主題
