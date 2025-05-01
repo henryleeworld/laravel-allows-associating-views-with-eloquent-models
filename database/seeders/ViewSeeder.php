@@ -9,11 +9,9 @@ use Illuminate\Database\Seeder;
 class ViewSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
-     *
-     * @return void
+     * Run the database seeders.
      */
-    public function run()
+    public function run(): void
     {
         $posts = Post::all();
         foreach ($posts as $post) {

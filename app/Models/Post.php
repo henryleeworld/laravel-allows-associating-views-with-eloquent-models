@@ -17,6 +17,7 @@ class Post extends Model implements Viewable
      * @var string
      */
     protected $table = 'posts';
+
     /**
      * The attributes that aren't mass assignable.
      *

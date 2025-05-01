@@ -1,4 +1,4 @@
-# Laravel 10 透過 Eloquent 模型允許關聯瀏覽紀錄
+# Laravel 11 透過 Eloquent 模型允許關聯瀏覽紀錄
 
 引入 cyrildewit 的 eloquent-viewable 套件來擴增透過 Eloquent 模型允許關聯瀏覽紀錄，可以看到哪些資料瀏覽量最高，最受歡迎，很適合拿來評價資料的熱門程度。
 
@@ -20,11 +20,19 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
+```sh
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/post/` 來進行文章主題瀏覽紀錄查詢。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/xlRY3JV.png)
+![](https://i.imgur.com/cPipdcx.png)
 > 找出最熱門的文章主題
