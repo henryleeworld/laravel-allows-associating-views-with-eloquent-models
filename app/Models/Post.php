@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model implements Viewable
 {
+    /** @use HasFactory<\Database\Factories\PostFactory> */
     use HasFactory, InteractsWithViews;
 
     /**
